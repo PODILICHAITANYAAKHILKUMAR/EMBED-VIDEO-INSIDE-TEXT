@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1500px;
+    height:700px;
+}
+.wrapper h1 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #fff;
+    text-align: center;
+    mix-blend-mode: screen;
+    text-transform: uppercase;
+    font-size: 300px;
+    font-weight: 1000;
+}
